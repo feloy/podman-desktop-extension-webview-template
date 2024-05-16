@@ -1,0 +1,40 @@
+{
+  "name": "my",
+  "displayName": "My",
+  "description": "Podman Desktop My",
+  "version": "0.1.0-next",
+  "icon": "icon.png",
+  "publisher": "acme",
+  "license": "Apache-2.0",
+  "engines": {
+    "podman-desktop": ">=1.8.0"
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "icons": {
+      "brain-icon": {
+        "description": "icon",
+        "default": {
+          "fontPath": "brain.woff2",
+          "fontCharacter": "\\E001"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest watch --coverage",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "format:fix": "prettier --write \"src/**/*.ts\"",
+    "watch": "vite --mode development build -w"
+  },
+  "dependencies": {
+    "semver": "^7.6.0"
+  },
+  "devDependencies": {
+    "@podman-desktop/api": "0.0.202404101645-5d46ba5",
+    "@types/node": "^20",
+    "vitest": "^1.5.0"
+  }
+}
