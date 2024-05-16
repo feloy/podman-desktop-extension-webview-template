@@ -33,7 +33,7 @@
     "semver": "^7.6.0"
   },
   "devDependencies": {
-    "@podman-desktop/api": "0.0.202404101645-5d46ba5",
+    "@podman-desktop/api": "1.10.2",
     "@types/node": "^20",
     "vitest": "^1.5.0"
   }
