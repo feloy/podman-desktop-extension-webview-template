@@ -35,6 +35,6 @@
   "devDependencies": {
     "@podman-desktop/api": "0.0.202404101645-5d46ba5",
     "@types/node": "^20",
-    "vitest": "^1.5.0"
+    "vitest": "^1.6.0"
   }
 }
